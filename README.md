@@ -3,7 +3,7 @@
 ## MMBERT: Multimodal BERT Pretraining for Improved Medical VQA
 Yash Khare*, Viraj Bagal*, Minesh Mathew, Adithi Devi, U Deva Priyakumar, CV Jawahar
 
-![alt text](https://github.com/VirajBagal/MMBERT/blob/main/images/qualitative.png?raw=true)
+![alt text](https://github.com/VirajBagal/MMBERT/blob/main/qualitative.png?raw=true)
 
 Abstract: *Images in the medical domain are fundamentally different from the general domain images. Consequently, it is infeasible to directly employ general domain Visual Question Answering ( VQA ) models for the medical domain. Additionally,medical images annotation is a costly and time-consuming
 process. To overcome these limitations, we propose a solution inspired by self-supervised pretraining of Transformer-style architectures for NLP , V ision and L anguage tasks. Our
@@ -34,7 +34,10 @@ python eval.py --run_name give_name --mixed_precision --category cat_name --hidd
 
 ## Results
 
-| Method | Dedicated |  Accuracy  |
-|        |  Models   | Open Closed Overall |
+| Method | Dedicated Models | Open Acc. | Closed Acc. | Overall Acc. |
 | --- | --- | --- |
-| MEVF + SAN | - | 40.7 74.1 60.8|
+| MEVF + SAN | - | 40.7 | 74.1 | 60.8 |
+| MEVF + BAN | - | 43.9 | 75.1 | 62.7 |
+| Conditional Reasoning | :heavy_check_mark: | 60.0 | 79.3 | 71.6 |
+| MMBERT General | :x: | 63.1 | 77.9 | 72.0 | 
+| --- | --- | --- | --- | --- | 
