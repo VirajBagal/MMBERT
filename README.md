@@ -40,4 +40,3 @@ python eval.py --run_name give_name --mixed_precision --category cat_name --hidd
 | MEVF + BAN | - | 43.9 | 75.1 | 62.7 |
 | Conditional Reasoning | :heavy_check_mark: | 60.0 | 79.3 | 71.6 |
 | MMBERT General | :x: | 63.1 | 77.9 | 72.0 | 
-| --- | --- | --- | --- | --- | 
