@@ -35,7 +35,7 @@ python eval.py --run_name give_name --mixed_precision --category cat_name --hidd
 ## Results
 
 | Method | Dedicated Models | Open Acc. | Closed Acc. | Overall Acc. |
-| --- | --- | --- |
+| --- | --- | --- | --- | --- | 
 | MEVF + SAN | - | 40.7 | 74.1 | 60.8 |
 | MEVF + BAN | - | 43.9 | 75.1 | 62.7 |
 | Conditional Reasoning | :heavy_check_mark: | 60.0 | 79.3 | 71.6 |
