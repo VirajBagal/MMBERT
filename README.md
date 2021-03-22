@@ -32,7 +32,12 @@ python train.py --run_name  give_name --mixed_precision --lr set_lr --category c
 python eval.py --run_name give_name --mixed_precision --category cat_name --hidden_size hidden_dim_size --use_pretrained
 ```
 
-## Results
+## VQARAD Results
+
+MMBERT General, which is a single model for both the question types
+in the dataset, outperforms the existing approaches including
+the ones which have a dedicated model for each question
+type.
 
 | Method | Dedicated Models | Open Acc. | Closed Acc. | Overall Acc. |
 | --- | --- | --- | --- | --- | 
@@ -40,3 +45,9 @@ python eval.py --run_name give_name --mixed_precision --category cat_name --hidd
 | MEVF + BAN | - | 43.9 | 75.1 | 62.7 |
 | Conditional Reasoning | :heavy_check_mark: | 60.0 | 79.3 | 71.6 |
 | MMBERT General | :x: | 63.1 | 77.9 | 72.0 | 
+
+
+
+| Method | Dedicated Models | Modality Acc. | Modality Bleu | Modality Acc. | Modality Bleu | Modality Acc. | Modality Bleu | Modality Acc. | Modality Bleu | Modality Acc. | Modality Bleu | Modality Acc. | Modality Bleu | 
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | 
+| MEVF + SAN | - | 40.7 | 74.1 | 40.7 | 74.1 | 40.7 | 74.1 | 40.7 | 74.1 | 40.7 | 74.1 | 40.7 | 74.1 |
