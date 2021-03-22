@@ -50,4 +50,11 @@ type.
 
 | Method | Dedicated Models | Modality Acc. | Modality Bleu | Plane Acc. | Plane Bleu | Organ Acc. | Organ Bleu | Abnormality Acc. | Abnormality Bleu | Yes/No Acc. | Yes/No Bleu | Overall Acc. | Overall Bleu | 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | 
-| VGG26 + BERT | - | - | - | - | - | - | - | - | - | - | - | 62.4 | 64.4 |
+| VGG16 + BERT | - | - | - | - | - | - | - | - | - | - | - | 62.4 | 64.4 |
+| CGMVQA | :heavy_check_mark: | 80.5 | 85.6 | 80.8 | 81.3 | 72.8 | 76.9 | 1.7 | 1.7 | 75.0 | 75.0 | 62.4 | 64.4 |
+| CGMVQA Ens. | :heavy_check_mark: | 81.9 | 88.0 | 86.4 | 86.4 | 78.4 | 79.7 | 4.4 | 7.6 | 78.1 | 78.1 | 64.0 | 65.9 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | 
+| MMBERT General | :x: | 77.7 | 81.8 | 82.4 | 82.9 | 73.6 | 76.6 | 5.2 | 6.7 | 85.9 | 85.9 | 62.4 | 64.2 |
+| MMBERT NP | :heavy_check_mark: | 80.6 | 85.6 | 81.6 | 82.1 | 71.2 | 74.4 | 4.3 | 5.7 | 78.1 | 78.1 | 60.2 | 62.7 |
+| MMBERT Exclusive | :heavy_check_mark: | 83.3 | 86.2 | 86.4 | 86.4 | 76.8 | 80.7 | 14.0 | 16.0 | 87.5 | 87.5 | 67.2 | 69.0 |
+
