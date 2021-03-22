@@ -48,6 +48,6 @@ type.
 
 
 
-| Method | Dedicated Models | Modality Acc. | Modality Bleu | Modality Acc. | Modality Bleu | Modality Acc. | Modality Bleu | Modality Acc. | Modality Bleu | Modality Acc. | Modality Bleu | Modality Acc. | Modality Bleu | 
+| Method | Dedicated Models | Modality Acc. | Modality Bleu | Plane Acc. | Plane Bleu | Organ Acc. | Organ Bleu | Abnormality Acc. | Abnormality Bleu | Yes/No Acc. | Yes/No Bleu | Overall Acc. | Overall Bleu | 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | 
-| MEVF + SAN | - | 40.7 | 74.1 | 40.7 | 74.1 | 40.7 | 74.1 | 40.7 | 74.1 | 40.7 | 74.1 | 40.7 | 74.1 |
+| VGG26 + BERT | - | - | - | - | - | - | - | - | - | - | - | 62.4 | 64.4 |
